@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['ballooning', 'fibrosis', 'inflammation', 'steatosis']
+
+roboflow:
+  workspace: asu-uwfdw
+  project: liver-disease-n4mfd
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/asu-uwfdw/liver-disease-n4mfd/dataset/1
